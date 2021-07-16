@@ -11,10 +11,9 @@ api_key = 'YOUR_API_KEY'
 
 
 ### Usage
-Using this little script, one can see the number of comments left on a Youtube video by specifying its videoId. For that, run 
+Using this little script, one can see the total number of comments left on a Youtube channel by specifying the channelId. For that, run 
 
-`python comms.py VIDEO_ID`
+`python allcomms.py CHANNEL_ID`
 
-where `VIDEO_ID` is obviously the Id of the video you want to fetch the number of comments from.
+where `CHANNEL_ID` can be found [in your settings](https://support.google.com/youtube/answer/3250431) if you are the owner, or using the method(s) described on [this stackexchange question](https://stackoverflow.com/questions/14366648/how-can-i-get-a-channel-id-from-youtube).
 
-The `allcomms.py` file is not exactly finished yet but the plan is to add an option to fetch all the comments from a single channel.
