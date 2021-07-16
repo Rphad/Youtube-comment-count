@@ -1,4 +1,27 @@
-## Youtube-comment-count
+# Youtube-comment-count
+
+## Français [EN below]
+
+### Prérequis
+
+Ce script nécessite python3 et une [clé API de Google](https://developers.google.com/youtube/v3). Une fois que vous avez une clé et activé YouTube Data API v3, il faut la stocker dans un fichier appelé `apikey.py` comme suit:
+
+```python
+api_key = 'VOTRE_CLE_API'
+```
+
+notez qu'elle doit être gardée secrète, d'où l'inclusion de `apikey.py` dans le `.gitignore`.
+
+
+### Utilisation
+
+Ce script permet de déterminer le nombre de commentaires total qu'a reçu une chaîne Youtube, en spécifiant son identifiant (channelId). Pour cela, il faut exécuter la commande suivante dans un terminal:
+
+`python allcomms.py ID_CHAINE`
+
+où `ID_CHAINE` peut être trouvé [dans vos paramètres](https://support.google.com/youtube/answer/3250431?hl=fr) si vous êtes le propriétaire de la chaîne, ou en utilisant les méthodes décrites [dans cette question stackexchange (en anglais)](https://stackoverflow.com/questions/14366648/how-can-i-get-a-channel-id-from-youtube)
+
+## English
 
 ### Requirements
 
